@@ -11,7 +11,9 @@ Then, you will be able to run it:
 2. `ionic run android` to run the app in your Android device.
 
 ![Main interface](http://i.imgur.com/tEJX9WX.png)
+
 *Figure 1 - Main interface*
 
 ![Weather details](http://i.imgur.com/HV7KmWE.png)
+
 *Figure 2 - Weather details*
