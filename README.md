@@ -10,8 +10,8 @@ Then, you will be able to run it:
 1. `ionic serve` to run the app in your browser.
 2. `ionic run android` to run the app in your Android device.
 
-![Main interface](https://i.gyazo.com/09cf1939f587906663d5d24a6a896754.png)
+![Main interface](http://i.imgur.com/tEJX9WX.png)
 *Figure 1 - Main interface*
 
-![Weather details](https://i.gyazo.com/2441889a21047eda9a6129e0ca450cba.png)
+![Weather details](http://i.imgur.com/HV7KmWE.png)
 *Figure 2 - Weather details*
