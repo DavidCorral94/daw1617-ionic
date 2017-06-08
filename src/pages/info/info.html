@@ -1,0 +1,46 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>WeatherMap | Info</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-card>
+    <img [src]="imageUrl" />
+    <ion-card-content>
+      <ion-card-title>
+        <span #weather></span>
+      </ion-card-title>
+      <ion-list>
+        <button ion-item>
+          <ion-icon name="thermometer" item-left></ion-icon>
+          Temperature: <span #temp></span>
+        </button>
+
+        <button ion-item>
+          <ion-icon name="add-circle" item-left></ion-icon>
+          Maximum: <span #max></span>
+        </button>
+
+        <button ion-item>
+          <ion-icon name="remove-circle" item-left></ion-icon>
+          Minimum: <span #min></span>
+        </button>
+
+        <button ion-item>
+          <ion-icon name="water" item-left></ion-icon>
+          Humidity: <span #hum></span>
+        </button>
+
+        <button ion-item>
+          <ion-icon name="flag" item-left></ion-icon>
+          Wind: <span #wind></span>
+        </button>
+
+      </ion-list>
+  </ion-card-content>
+  </ion-card>
+</ion-content>

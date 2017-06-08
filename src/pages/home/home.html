@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      WeatherMap <span #city></span>
+    </ion-title>
+    <ion-buttons right>
+      <button ion-button color="primary" block (click)="navigationLink()">
+     Show Info
+  </button>
+      <button ion-button (click)="refreshPage()">
+        <ion-icon name="locate"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <div #map id="map"></div>
+  <div #header id="header">
+    <ion-card>
+      <ion-card-content>
+        <table class="w3-table-all">
+          <thead>
+            <tr class="w3-red">
+              <th>Weather</th>
+              <th>Temp.</th>
+              <th>Max.</th>
+              <th>Min.</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td #weather></td>
+              <td #temp></td>
+              <td #maxtemp></td>
+              <td #mintemp></td>
+            </tr>
+          </tbody>
+        </table>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>
